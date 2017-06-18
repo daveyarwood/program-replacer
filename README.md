@@ -17,8 +17,8 @@ This creates a jar file in the `target` directory.
 1. Run `java -jar target/replacer.jar` to create
    `/usr/local/bin/replaceme1234567890` for the first time.
 
-1. Run `/usr/local/bin/replaceme1234567890`. It will print the same randomly
-   generated UUID in a loop.
+1. Run `replaceme1234567890`. It will print the same randomly generated UUID in
+   a loop.
 
    > NOTE: This UUID is hard-coded into the program -- it is the same every time
    > you run that version of the program.
@@ -29,5 +29,5 @@ This creates a jar file in the `target` directory.
 
 1. The same UUID should keep printing until you stop the program via Ctrl-C.
 
-1. When you run it again, you can see that the program has been replaced by a
-   new program with a new UUID.
+1. When you run `replaceme1234567890` again, you can see that the program has
+   been replaced by a new program with a new UUID.
